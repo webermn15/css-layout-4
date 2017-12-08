@@ -1,0 +1,52 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+.topleft, .topright-box, main, .navbox, footer {
+	background-color: lightseagreen;
+	border: 1px solid black;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 130px;
+	margin-top: 10px;
+}
+.topleft {
+	display: inline-block;
+	height: auto;
+	width: 270px;
+}
+.topright-container {
+	/*border: 1px solid red;*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 600px;
+	height: auto;
+}
+.topright-box {
+	width: 140px;
+	height: 50px;
+	margin-left: 10px;
+}
+main {
+	height: 280px;
+	width: auto;
+	margin: 10px 0 10px 0;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	height: 160px;
+	width: auto;
+}
+.navbox {
+	height: auto;
+	width: 310px;
+}
+footer {
+	width: auto;
+	height: 130px;
+	margin-top: 10px;
+}
