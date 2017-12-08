@@ -1,0 +1,76 @@
+body {
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+main {
+	/*display: flex;*/
+}
+
+footer {
+	display: flex;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navvy {
+	height: 60px;
+	width: 150px;
+	background-color: lightgrey;
+	border: 1px solid grey;
+	margin: 8px;
+	display: inline-flex;
+}
+
+.logo {
+	height: 130px;
+	width: 250px;
+	background-color: lightgrey;
+	border: 1px solid grey;
+	margin: 10px 10px 20px 10px;
+}
+
+/*.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+}*/
+
+/*nothing*/
+
+.trio {
+	display: flex;
+	justify-content: space-between;
+}
+
+.poster {
+	height: 300px;
+	background-color: lightgrey;
+	border: 1px solid grey;
+	width: 960px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.banner {
+	height: 100px;
+	background-color: lightgrey;
+	border: 1px solid grey;
+	margin: 10px;
+	width: 960px;
+	flex-wrap: wrap;
+}
+
+.triple {
+	height: 130px;
+	width: 300px;
+	margin: 10px;
+	display: flex;
+	background-color: lightgrey;
+	border: 1px solid grey;
+}
